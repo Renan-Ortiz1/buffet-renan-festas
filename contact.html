@@ -126,8 +126,8 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Título da mensagem</label>
+                                            <input type="text" class="form-control" id="telefone" placeholder="Subject" required>
+                                            <label for="subject">Telefone</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -147,6 +147,7 @@
                                   var form = document.forms["form"];
                                   var nome = form.name.value;
                                   var email = form.email.value;
+                                  var telefone = form.telefone.value;
                             
                                   if (form.checkValidity()) {
                                     // Se todos os campos obrigatórios estiverem preenchidos
